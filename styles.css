@@ -1,0 +1,20 @@
+
+.back-img{
+    background-image: url('Worlds-Greatest-Places-Red-Sea-Saudi-Arabia.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin: 0px;
+}
+.navbar-brand{
+    justify-content: flex-end;
+    
+}
+.b1{
+    margin: 30px;
+}
+
+.container-fluid{
+    display: flex;
+
+}

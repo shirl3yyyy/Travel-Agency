@@ -6,23 +6,26 @@
     <title>Travel-Agency</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 </head>
 
 
                                     <!-- Nav Bar -->
-<nav class="navbar bg-body-tertiary">
+    <section class="b1">
+ <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <span class="navbar-brand mb-0 h1">JETSETGO</span>
   </div>
 </nav>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <div class="container-fluid justify-content-end">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    </button><br>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -39,15 +42,15 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav><br>
                                       <!--Hero-->
-    <div>
+    <div class="back-img" >
         <h1>Ready to book your next adventure</h1>
         <h3>Tell us we can definately help</h3>
         <a href="#" class="btn btn-primary">Browse Destinations</a>
 
 
-    </div>
+    </div><br><br>
 
 <body>
     <form class="row row-cols-lg-auto g-3 align-items-center">
@@ -57,7 +60,7 @@
       <div class="input-group-text">@</div>
       <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
     </div>
-  </div>
+  </div><br><br>
   
                        <!--Destination part one-->
   <div class="col-12">
@@ -82,39 +85,126 @@
   <div class="col-12">
     <button type="submit" class="btn btn-primary">Submit</button>
   </div>
-</form>
+</form><br><br>
 
                                     <!--Destination part 2-->
-<div class="card mb-3">
-  <img src="..." class="card-img-top" alt="...">
+                                    <h2>Destinations</h2>
+<div class="card">
+  <img src="rome-rome.jpg" class="card-img-top" alt="Rome">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <h5 class="card-title">Italy,Rome</h5>
+    <p class="card-text">The “City of Light” offers the Eiffel Tower, romantic streets, iconic museums like the Louvre, and world-class pastries.</p>
     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
   </div>
-</div>
-<button class="btn btn-primary" type="submit">Button</button>
+</div><br>
+<button class="btn btn-primary" type="submit">Learn More</button><br><br><br><br>
 
 <div class="card">
-    <img src="..." class="card-img-bottom" alt="...">
+    <img src="tokyo.jpg" class="card-img-bottom" alt="Kyoto">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <h5 class="card-title">Kyoto,Japan</h5>
+    <p class="card-text">A peaceful city filled with temples, shrines, bamboo forests, and traditional geisha culture — especially beautiful during cherry blossom season.</p>
     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
   </div>
-</div>
-<button class="btn btn-primary" type="submit">Button</button>
+</div><br>
+<button class="btn btn-primary" type="submit">Learn More</button><br><br><br><br>
+
 
 <div class="card mb-3">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="paris.jpg" class="card-img-top" alt="Paris">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <h5 class="card-title">Paris,France</h5>
+    <p class="card-text">Explore ancient ruins like the Colosseum and Roman Forum, enjoy delicious pasta, and throw a coin into the Trevi Fountain.</p>
     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
   </div>
-</div>
-<button class="btn btn-primary" type="submit">Button</button>
+</div><br>
+<button class="btn btn-primary" type="submit">Learn More</button><br><br>
 
-    
+                 <!--Tours-->
+           <h2>Tours</h2>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Paris Gateway
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+       Enjoy a 5-day trip to the City of Light. Includes guided tours of the Eiffel Tower, Louvre, and more.
+          <br>
+          <a href="#" class="btn btn-link p-0">View Details</a> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Kyoto Cultural Experience
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+         Discover ancient temples, bamboo forests, and traditional Japanese tea ceremonies in Kyoto.
+          <br>
+          <a href="#" class="btn btn-link p-0">View Details</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Rome Historical Tour
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+         Explore the Colosseum, Vatican City, and other Roman wonders with expert guides.
+          <br>
+          <a href="#" class="btn btn-link p-0">View Details</a>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+                    
+                              <!--Contact Form--> 
+                              <h2>Contanct</h2>
+     <form>
+        <div class="mb-3">
+    <label for="exampleInputMessage" class="form-label">Username</label>
+    <input type="text" class="form-control" id="exampleInputUsername">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputMessage" class="form-label">Message</label>
+    <input type="text" class="form-control" id="exampleInputMessage">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+                   <!--Footer--> 
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+  <div class="container">
+    <p class="mb-1"> Copyright © 2025 Shirley's Website.</p>
+    <pclass="mb-1"> All rights reserved.</p>
+    <a href="https://www.example.com" class="text-info" target="_blank">Visit my portfolio</a>
+  </div>
+</footer>
+</section>
+
 </body>
 </html>
